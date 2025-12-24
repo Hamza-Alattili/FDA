@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Future Dev Academy", "Future Dev Academy\Future Dev Academy.csproj", "{6FB89265-AF0F-4245-BAA7-367D20034DEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDA", "Future Dev Academy\FDA.csproj", "{6FB89265-AF0F-4245-BAA7-367D20034DEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{CBE46DE7-85A1-4577-A020-D760E88EE6E4}"
 EndProject

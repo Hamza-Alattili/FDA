@@ -5,15 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace Application.DTOs.Auth
 {
-    public class Role
+    public class RoleListDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public SystemRole Code { get; set; }
-
-
     }
 }
-

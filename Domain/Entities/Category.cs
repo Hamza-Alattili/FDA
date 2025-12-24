@@ -7,13 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Role
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public SystemRole Code { get; set; }
-
-
+        public CourseTypeEnum Code { get; set; }
     }
 }
-

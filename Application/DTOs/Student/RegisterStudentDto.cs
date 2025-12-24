@@ -1,27 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace Application.DTOs.Student
 {
-    public class User
+    public class RegisterStudentDto
     {
-        public int Id { get; set; }
-        [MaxLength(200)]
-        [MinLength(4)]
         public string Name { get; set; }
         [MaxLength(150)]
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-        public string Password { get; set; }
         public string? PhoneNumber { get; set; }
-        public int RoleId { get; set; }
-        [ForeignKey("RoleId")]
-        public Role Role { get; set; }
+        public string Password { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string UniversityName { get; set; }
     }
 }
